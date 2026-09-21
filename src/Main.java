@@ -3,11 +3,9 @@ public class Main {
 
         int numToExamine = 2;
 
-        if (numToExamine % 2 == 0) {
-            System.out.println("The number " + numToExamine + " is even.");
-        }
-        else{
-            System.out.println("The number " + numToExamine + " is odd. ");
-        }
+        String result = (numToExamine % 2 == 0) ? "even" : "odd";
+
+        System.out.println("The number " + numToExamine +" is " + result);
+
     }
 }
